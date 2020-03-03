@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+section{
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+header nav{
+    background: rgb(9, 92, 9);
+    padding: 15px;
+
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    
+}
+nav  a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    align-items: center;
+}
+header nav a:hover{
+    opacity: 0.4;
+    background: rgb(99, 224, 99);
+}
+section div{
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 20px;
+}
+img{
+    width:300px;
+    height: 300px;
+}
+p{
+    width: 300px;
+}
+h2{
+    text-align: center;
+}
+#a1{
+    margin: auto;
+}
+#img-1{
+    width: 150px;
+    height: 150px;
+}
+#div-1 p{
+    width: 100%;
+}
+#div-2{
+    display: inline ;
+}
+#img-2{
+    width: 150px;
+    height: 150px;
+    padding-right: 20px;
+}
